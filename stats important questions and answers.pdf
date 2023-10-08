@@ -1,0 +1,48 @@
+Certainly! Here are answers to each of the questions:
+
+**Monty Hall Problem:**
+To maximize your chances of winning the car, you should switch your choice to the remaining unopened door. Initially, your probability of picking the car is 1/3, while the probability of picking a goat is 2/3. When Monty Hall reveals a goat behind one of the other two doors, the probability distribution effectively shifts. If you switch, your chance of winning becomes 2/3, whereas if you stick with your original choice, it remains at 1/3. This counterintuitive result is a classic example of conditional probability.
+
+**P-Value Interpretation:**
+A p-value is a measure of the evidence against a null hypothesis in a hypothesis test. It represents the probability of obtaining results as extreme as or more extreme than those observed, assuming that the null hypothesis is true. A common threshold for significance is 0.05 (5%). If the p-value is less than this threshold, you typically reject the null hypothesis, indicating that there is enough evidence to suggest that the alternative hypothesis is true. If the p-value is greater than 0.05, you fail to reject the null hypothesis, suggesting that there isn't enough evidence to support the alternative hypothesis.
+
+**Bias-Variance Trade-off:**
+The bias-variance trade-off is a fundamental concept in machine learning. It refers to the balance between two types of errors that a model can make:
+- Bias: High bias occurs when a model is too simple and cannot capture the underlying patterns in the data, leading to underfitting.
+- Variance: High variance occurs when a model is too complex and fits noise in the data, leading to overfitting.
+The goal is to find a model that strikes a balance between bias and variance to generalize well to new, unseen data.
+
+**Confidence Intervals:**
+A confidence interval is a range of values that is likely to contain the true population parameter with a specified level of confidence. For a sample mean, you calculate a confidence interval by taking the sample mean and adding and subtracting a margin of error, which depends on the sample size, standard deviation, and chosen confidence level. A 95% confidence interval, for example, means that if you were to take many samples and construct confidence intervals, approximately 95% of those intervals would contain the true population mean.
+
+**A/B Testing:**
+A/B testing is a method for comparing two versions of a webpage or an application to determine which one performs better in terms of a specific metric (e.g., conversion rate). The steps of conducting an A/B test include:
+1. **Randomly split:** Randomly divide your users or subjects into two groups: Group A (control) and Group B (treatment).
+2. **Implement changes:** Apply the change or variation (e.g., a new webpage design) to Group B, while Group A remains unchanged.
+3. **Collect data:** Measure the relevant metric (e.g., conversion rate) for both groups over a defined period.
+4. **Analyze results:** Use statistical tests (e.g., t-test) to determine if the observed differences between groups are statistically significant.
+5. **Draw conclusions:** Based on statistical significance and practical significance, decide whether to adopt the changes or stick with the original version.
+
+**Central Limit Theorem:**
+The Central Limit Theorem (CLT) states that, regardless of the population distribution, the sampling distribution of the sample mean becomes approximately normally distributed as the sample size increases. This is important because it allows us to make inferences about population parameters using the normal distribution, even when we don't know the underlying population distribution. The CLT is fundamental in hypothesis testing and confidence interval estimation.
+
+**Bayesian vs. Frequentist Statistics:**
+Bayesian and frequentist approaches differ in their interpretation of probability and statistical inference:
+- Bayesian: Bayesian statistics uses probability to express uncertainty about parameters and updates beliefs using prior information and observed data. It provides posterior probability distributions for parameters.
+- Frequentist: Frequentist statistics focuses on the long-run frequency of events. It does not incorporate prior beliefs and typically uses point estimates and confidence intervals.
+The choice between them depends on factors like the availability of prior information and the philosophical approach to probability.
+
+**Cross-Validation:**
+Cross-validation is a technique used in machine learning to assess the performance of a predictive model. It involves splitting the data into training and testing sets multiple times and evaluating the model's performance on each split. Common types of cross-validation include k-fold cross-validation, leave-one-out cross-validation, and stratified cross-validation. Cross-validation helps estimate a model's generalization performance and identify issues like overfitting.
+
+**Resampling Methods:**
+Bootstrapping is a resampling method where you repeatedly sample data points with replacement from your dataset to create new samples of the same size. It can be used for various purposes, including estimating confidence intervals and assessing the distribution of a statistic.
+
+**Multicollinearity:**
+Multicollinearity occurs in regression analysis when two or more independent variables in a model are highly correlated. This can make it challenging to identify the individual effect of each variable on the dependent variable and can lead to unstable coefficient estimates. To address multicollinearity, options include removing one of the correlated variables, combining them into a composite variable, or using regularization techniques like Ridge regression.
+
+**Simpson's Paradox:**
+Simpson's Paradox is a phenomenon where a trend or association appears in different groups of data but disappears or reverses when these groups are combined. It occurs when a lurking variable affects the relationship between two other variables. To mitigate its impact, data scientists need to examine and report results at the subgroup level, especially when there's a risk of Simpson's Paradox, to avoid drawing misleading conclusions.
+
+**Power and Sample Size:**
+Statistical power is the probability of correctly rejecting a false null hypothesis in a hypothesis test. It is important because it determines a test's ability to detect true effects. To calculate the required sample size for a hypothesis test with a specified level of power and significance (alpha), you need to consider factors like effect size, standard deviation, and the desired level of power. This calculation can be done using power analysis techniques. Increasing the sample size generally increases the statistical power of a test.
